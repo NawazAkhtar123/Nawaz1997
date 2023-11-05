@@ -1,0 +1,21 @@
+package Nawaz1;
+
+class MultiVer {
+
+		// TODO Auto-generated method stub
+		
+
+			public static void main(String[] args) {
+				// TODO Auto-generated method stub
+		Float x=1,2,3f
+		Double y=4,5,6d;
+		if (x>y)
+		{
+			System.out.println(x);
+		}
+		{
+		else
+			System.out.println(y);
+		}
+
+	

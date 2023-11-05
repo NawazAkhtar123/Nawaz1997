@@ -1,0 +1,23 @@
+package Maven21;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.ITestContext;
+import org.testng.annotations.Test;
+
+
+public class Orangehrm {
+	WebDriver driver;
+	String baseurl="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+	
+	@Test
+	
+	public void Forlaunchlrl (ITestContext context) throws InterruptedException 
+	{
+		driver = new ChromeDriver();
+		   driver.get(baseurl);
+		   driver.manage().window().maximize();
+	       Thread.sleep(2000);
+	}	       
+}

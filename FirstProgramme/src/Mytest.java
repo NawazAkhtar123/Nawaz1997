@@ -1,0 +1,22 @@
+
+// Inheritance Program 	-- inherit parent to child 
+
+class Parent {
+		void bike() {
+			System.out.println("Hiro");
+		}
+	}
+	
+	class Chiled extends Parent{
+		void cycle () {
+			System.out.println("renger");
+		}
+	}
+		public class Mytest {
+	
+public static void main(String[] args) {
+	Chiled c =new Chiled();
+	c.bike();
+	c.cycle();
+}
+}
